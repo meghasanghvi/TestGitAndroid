@@ -3,6 +3,7 @@ package com.example.gitandroidproject;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.MenuItem;
 
 public class MainActivity extends Activity {
 
@@ -19,6 +20,19 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case R.id.action_settings:
+			System.out.println("Action setting is pushed.........");
+			break;
+
+		default:
+			break;
+		}
+		
+		return super.onOptionsItemSelected(item);
+	}
 	
 
 }
