@@ -26,6 +26,9 @@ public class MainActivity extends Activity {
 		case R.id.action_settings:
 			System.out.println("Action setting is pushed.........");
 			System.out.println("Action setting is pushed.........");
+			System.out.println("Action setting is pushed.........");
+			System.out.println("Action setting is pushed.........");
+			System.out.println("Action setting is pushed.........");
 			break;
 
 		default:
