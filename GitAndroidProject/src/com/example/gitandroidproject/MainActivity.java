@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case R.id.action_settings:
-			System.out.println("Action setting is called");
+			
 			break;
 
 		default:
